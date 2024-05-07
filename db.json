@@ -1,0 +1,47 @@
+{
+    "menu": [
+    {
+      "id": 1,
+      "name": "Pancakes",
+      "description": "Delicious pankcake served while hot",
+      "price": 200,
+      "image_url": "https://images.pexels.com/photos/376464/pexels-photo-376464.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": 2,
+      "name": "Eggs",
+      "description": "Served with stew",
+      "price": 150,
+      "image_url": "https://images.pexels.com/photos/793785/pexels-photo-793785.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": 3,
+      "name": "Omelette",
+      "description": "Customizable omelette with choice of fillings: cheese, ham, peppers, onions, etc.",
+      "price": 300,
+      "image_url": "https://images.pexels.com/photos/1437268/pexels-photo-1437268.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": 201,
+      "name": "Caesar Salad",
+      "description": "Fresh romaine lettuce, croutons, Parmesan cheese, and Caesar dressing",
+      "price": 600,
+      "image_url": "https://images.pexels.com/photos/2097090/pexels-photo-2097090.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": 202,
+      "name": "Grilled Chicken Sandwich",
+      "description": "Grilled chicken breast, lettuce, tomato, and mayonnaise on a toasted bun",
+      "price": 450,
+      "image_url": "https://images.pexels.com/photos/5337811/pexels-photo-5337811.jpeg?auto=compress&cs=tinysrgb&w=800"
+    },
+    {
+      "id": 203,
+      "name": "Pasta Carbonara",
+      "description": "Spaghetti with creamy carbonara sauce, bacon, and Parmesan cheese",
+      "price": 500,
+      "image_url": "https://images.pexels.com/photos/4518844/pexels-photo-4518844.jpeg?auto=compress&cs=tinysrgb&w=800"
+    }
+  ]
+
+}
