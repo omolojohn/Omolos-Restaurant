@@ -8,8 +8,10 @@ function Navbar () {
     }
     return (
         <div 
-        class="shadow p-1 mb-3 bg"
+        class="shadow p-1 mb-3 bg-body-tertiary rounded border-bottom-black"
+        style={{ backgroundColor : "black"}}
         >
+            <nav></nav>
 
         </div>
     )
