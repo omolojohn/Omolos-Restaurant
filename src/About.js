@@ -167,7 +167,6 @@ function About() {
     </div>
     </div>
   );
-  hyu
 
 
 export default About;
