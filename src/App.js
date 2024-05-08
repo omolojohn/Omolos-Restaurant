@@ -1,5 +1,5 @@
 import React from 'react'
-import NavBar from './NavBar';
+import NavBar from './Navbar';
 
 function App() {
   return (
@@ -11,4 +11,4 @@ function App() {
   )
 }
 
-export default App
+export default App;
