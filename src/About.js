@@ -13,7 +13,7 @@ function About() {
       
       <div className="container text-center mt-5">
       <h1 style={{ textAlign: "center", marginTop: "20px" }}>
-        Welcome Everyone
+        Welcome Food Lovers.
       </h1>
       <p className="lead" style={{ marginLeft: "10px", fontSize: "20px", marginTop: "25px" }}>
         Embark on a culinary adventure like no other with Omolo's Restaurant, a
