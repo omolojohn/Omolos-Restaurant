@@ -32,3 +32,25 @@ function About() {
         creating authentic and mouthwatering dishes.
       </p>
      
+      <p className="lead" style={{ marginLeft: "10px", fontSize: "20px" }}>
+        Experience the joy of exploring new flavors and expanding your culinary
+        repertoire. Our intuitive search and filtering options make it easy to
+        find recipes based on dietary preferences, ingredients, or cultural
+        origins. Discover vegetarian delights, gluten-free options, and recipes
+        suitable for special occasions or quick weekday meals.
+      </p>
+      <p className="lead" style={{ marginLeft: "10px", fontSize: "20px" }}>
+        Stay organized and create your personalized recipe collections for easy
+        access. Plan your meals with our meal planner feature, and never run out
+        of exciting ideas for breakfast, lunch, dinner, or even festive
+        gatherings.For 25 years of experience...you can trust us as your 
+        restaurant of choice.
+      </p>
+      <p className="lead" style={{ marginLeft: "10px", fontSize: "20px" }}>
+        Omolo's Restaurant is more than just a food app; it's an immersive cultural
+        experience that celebrates the diversity of global cuisines. Join our
+        vibrant community of food enthusiasts, share your own recipes, and
+        connect with like-minded individuals who share a passion for cooking and
+        cultural exploration.
+      </p>
+      </div>
