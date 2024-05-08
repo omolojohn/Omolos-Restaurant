@@ -1,3 +1,48 @@
+<<<<<<< HEAD
+<<<<<<< HEAD
+*navbar {
+=======
+.horizontal-menu {
+>>>>>>> main
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: palevioletred;
+    border-radius: 4px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+<<<<<<< HEAD
+.navbar li {
+    list-style: none;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: black;
+    padding: 8px 12px;
+}
+.home {
+    font-size: 36px;
+    text-align: center;
+}
+.contact {
+    text-align: left;
+}
+.menu {
+    text-align: center;
+=======
+.horizontal-menu li {
+    list-style: none;
+}
+
+.horizontal-menu a {
+    text-decoration: none;
+    color: black;
+    padding: 8px 12px;
+>>>>>>> main
+=======
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css");
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,300&family=Great+Vibes&family=Lato:ital,wght@1,300;1,400&display=swap');
@@ -254,4 +299,5 @@ form input.form-control:focus {
   /* Add a glowing effect to the input fields when they are focused */
   border-color: rgba(0, 0, 255, 0.5);
   box-shadow: 0 0 8px rgba(0, 0, 255, 0.5);
+>>>>>>> 894a6aebb55670dde59357992b32e599f8c5a795
 }
