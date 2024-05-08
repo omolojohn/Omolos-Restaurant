@@ -1,13 +1,13 @@
 import React from 'react';
-import './Navbar.css';
+import './App.css';
 
 function Navbar() {
     return (
         <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#menu">Menu</a></li>
-                <li><a href="#order">Make order</a></li>
+            <ul className='horizontal-menu'>
+                <li>Home</li>
+                <li>Menu</li>
+                <li>Make order</li>
             </ul>
         </nav>
     );
