@@ -1,271 +1,47 @@
 {
-  "appetizers": [
-    {
-      "id": 1,
-      "name": "Garlic Bread",
-      "price": 450,
-      "description": "Freshly baked garlic bread with a hint of herbs.",
-      "image": "https://images.pexels.com/photos/13698106/pexels-photo-13698106.jpeg?auto=compress&cs=tinysrgb&w=1600"
-    },
-    {
-      "id": 2,
-      "name": "Caesar Salad",
-      "price": 545,
-      "description": "Romaine lettuce, croutons, parmesan cheese, and Caesar dressing.",
-      "image": "https://images.pexels.com/photos/1211887/pexels-photo-1211887.jpeg?auto=compress&cs=tinysrgb&w=1600"
-    },
-    {
-      "id": 3,
-      "name": "Spring Rolls",
-      "price": 380,
-      "description": "Crispy vegetable spring rolls served with sweet chili sauce.",
-      "image": "https://images.pexels.com/photos/9406092/pexels-photo-9406092.jpeg?auto=compress&cs=tinysrgb&w=1600"
-    },
-    {
-      "id": 4,
-      "name": "Chicken Wings",
-      "description": "Spicy chicken wings served with blue cheese dressing.",
-      "price": 899,
-      "image": "https://images.pexels.com/photos/13999216/pexels-photo-13999216.jpeg?auto=compress&cs=tinysrgb&w=600"
-    },
-    {
-      "id": 5,
-      "name": "Spinach Artichoke Dip",
-      "description": "Creamy spinach and artichoke dip served with tortilla chips.",
-      "price": 699,
-      "image": "https://images.pexels.com/photos/7785366/pexels-photo-7785366.jpeg?auto=compress&cs=tinysrgb&w=600"
-    },
-    {
-      "id": 6,
-      "name": "Stuffed Mushrooms",
-      "description": "Mushroom caps filled with a savory blend of cream cheese and herbs.",
-      "price": 699,
-      "image": "https://media.istockphoto.com/id/617387012/photo/stuffed-mushrooms.jpg?b=1&s=612x612&w=0&k=20&c=pfWHxmzY89MqTNRj5BrIX7ByIZmTolWA9Cg1FqzW78w="
-    },
-    {
-      "id": 7,
-      "name": "Garlic Shrimp",
-      "description": "Sauteed shrimp in garlic butter, served with toasted baguette slices.",
-      "price": 4999,
-      "image": "https://images.unsplash.com/photo-1688084468401-4938b073aef2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Z3JpbGxlZCUyMHNocmltcHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=400&q=60"
-    }
-  ],
-  "main_courses": [
-    {
-      "id": 8,
-      "name": "Grilled Salmon",
-      "price": 1590,
-      "description": "Grilled salmon fillet served with lemon butter sauce and seasonal vegetables.",
-      "image": "https://images.pexels.com/photos/7627407/pexels-photo-7627407.jpeg?auto=compress&cs=tinysrgb&w=1600"
-    },
-    {
-      "id": 9,
-      "name": "Chicken Alfredo",
-      "price": 1599,
-      "description": "Creamy Alfredo sauce tossed with fettuccine and grilled chicken.",
-      "image": "https://i.pinimg.com/236x/1f/6d/61/1f6d61c8a4a02b277d7354ab27d19cba.jpg"
-    },
-    {
-      "id": 10,
-      "name": "Vegetable Stir Fry",
-      "price": 1299,
-      "description": "Assorted vegetables stir-fried in a savory sauce served over steamed rice.",
-      "image": "https://i.pinimg.com/236x/c6/41/85/c641851e972463bef2c3419c3ffa6452.jpg"
-    },
-    {
-      "id": 11,
-      "name": "Classic Cheese Pizza",
-      "price": 1299,
-      "description": "Tomato sauce, mozzarella cheese",
-      "image": "https://i.pinimg.com/236x/cc/9e/57/cc9e57beae6969c00101199dc1c27cfd.jpg"
-    },
-    {
-      "id": 12,
-      "name": "Pepperoni Pizza",
-      "price": 1499,
-      "description": "Tomato sauce, mozzarella cheese, pepperoni",
-      "image": "https://images.pexels.com/photos/4109080/pexels-photo-4109080.jpeg?auto=compress&cs=tinysrgb&w=1600"
-    },
-    {
-      "id": 13,
-      "name": "Cheeseburger(with a side of fries)",
-      "price": 1199,
-      "description": "Juicy beef patty topped with cheese, lettuce, tomato, and pickles.",
-      "image": "https://images.pexels.com/photos/2271107/pexels-photo-2271107.jpeg?auto=compress&cs=tinysrgb&w=1600"
-    },
-    {
-      "id": 14,
-      "name": "Ribeye Steak",
-      "price": 1999,
-      "description": "Juicy ribeye steak cooked to your preference, served with mashed potatoes.",
-      "image": "https://i.pinimg.com/236x/8b/69/2f/8b692f84a57922d96b2c933481a7c94f.jpg"
-    },
-    {
-      "id": 15,
-      "name": "Chicken Parmesan",
-      "description": "Breaded chicken topped with marinara sauce and melted mozzarella.",
-      "price": 1499,
-      "image": "https://media.istockphoto.com/id/1205365946/photo/chicken-parmigiana-traditional-italian-comfort-dish-chicken-breast-covered-in-breadcrumbs.jpg?b=1&s=612x612&w=0&k=20&c=oUXOB3zCX-CBF9-1tXjA3MukNXGH6TBF-wA0ZtQNBb0="
-    },
-    {
-      "id": 16,
-      "name": "New York Strip Steak",
-      "description": "Juicy New York strip steak cooked to your preference.",
-      "price": 2099,
-      "image": "https://images.pexels.com/photos/1307658/pexels-photo-1307658.jpeg?auto=compress&cs=tinysrgb&w=600"
-    },
-    {
-      "id": 17,
-      "name": "Eggplant Parmesan",
-      "description": "Breaded eggplant topped with marinara sauce and melted mozzarella.",
-      "price": 1399,
-      "image": "https://images.pexels.com/photos/1707917/pexels-photo-1707917.jpeg?auto=compress&cs=tinysrgb&w=600"
-    }
-  ],
-  "desserts": [
-    {
-      "id": 18,
-      "name": "Chocolate Lava Cake",
-      "price": 699,
-      "description": "Rich chocolate cake with a gooey molten center, served with vanilla ice cream.",
-      "image": "https://images.pexels.com/photos/1854652/pexels-photo-1854652.jpeg?auto=compress&cs=tinysrgb&w=1600"
-    },
-    {
-      "id": 19,
-      "name": "Tiramisu",
-      "price": 599,
-      "description": "Classic Italian dessert made with coffee-soaked ladyfingers and mascarpone cheese.",
-      "image": "https://media.istockphoto.com/id/585178794/photo/tiramisu.jpg?b=1&s=612x612&w=0&k=20&c=vIH1QSk1Uvcv2Dvq_UyzuCFF7zZXFl7CvMKnmJk0LD0="
-    },
-    {
-      "id": 20,
-      "name": "Fruit Sorbet",
-      "price": 499,
-      "description": "Refreshing fruit sorbet in various flavors.",
-      "image": "https://i.pinimg.com/236x/5a/2a/a9/5a2aa97384715d6119cf3091d8befa3a.jpg"
-    },
-    {
-      "id": 21,
-      "name": "Chocolate Brownie",
-      "price": 699,
-      "description": "Rich chocolate brownie served with vanilla ice cream.",
-      "image": "https://images.pexels.com/photos/45202/brownie-dessert-cake-sweet-45202.jpeg?auto=compress&cs=tinysrgb&w=600"
-    },
-    {
-      "id": 22,
-      "name": "New York Cheesecake",
-      "price": 799,
-      "description": "Creamy New York-style cheesecake topped with fresh strawberries.",
-      "image": "https://images.pexels.com/photos/47013/pexels-photo-47013.jpeg?auto=compress&cs=tinysrgb&w=600"
-    },
-    {
-      "id": 23,
-      "name": "Fruit Tart",
-      "price": 549,
-      "description": "Butter pastry shell filled with custard and topped with fresh seasonal fruits.",
-      "image": "https://images.pexels.com/photos/7474096/pexels-photo-7474096.jpeg?auto=compress&cs=tinysrgb&w=600"
-    }
-  ],
-  "beverages": [
-    {
-      "id": 24,
-      "name": "Soft Drinks",
-      "price": 249,
-      "description": "Assorted soft drinks and sodas.",
-      "image": "https://restaurentapp.s3.eu-west-1.amazonaws.com/categoryImages/1573202309.jpg"
-    },
-    {
-      "id": 25,
-      "name": "Iced Tea",
-      "price": 299,
-      "description": "Refreshing iced tea with a choice of flavors.",
-      "image": "https://restaurentapp.s3.eu-west-1.amazonaws.com/categoryImages/1573202445.jpg"
-    },
-    {
-      "id": 26,
-      "name": "Freshly Brewed Coffee",
-      "price": 299,
-      "description": "A cup of freshly brewed coffee.",
-      "image": "https://restaurentapp.s3.eu-west-1.amazonaws.com/categoryImages/1556878443.jpg"
-    },
-    {
-      "id": 27,
-      "name": "Fruit Smoothie",
-      "price": 499,
-      "description": "Refreshing blend of fresh fruits and yogurt.",
-      "image": "https://images.unsplash.com/photo-1505252585461-04db1eb84625?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fGZydWl0JTIwc21vb3RoaWV8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=400&q=60"
-    },
-    {
-      "id": 28,
-      "name": "Cappuccino",
-      "price": 349,
-      "description": "Espresso mixed with equal parts of steamed milk and milk foam.",
-      "image": "https://images.pexels.com/photos/312418/pexels-photo-312418.jpeg?auto=compress&cs=tinysrgb&w=600"
-    },
-    {
-      "id": 29,
-      "name": "Fresh Orange Juice",
-      "price": 399,
-      "description": "Squeezed from ripe oranges, served chilled.",
-      "image": "https://images.pexels.com/photos/338713/pexels-photo-338713.jpeg?auto=compress&cs=tinysrgb&w=600"
-    },
-    {
-      "id": 30,
-      "name": "Lemonade",
-      "price": 349,
-      "description": "Classic lemonade made with freshly squeezed lemons and a touch of sweetness.",
-      "image": "https://images.unsplash.com/photo-1575596510825-f748919a2bf7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8bGVtb25hZGV8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=400&q=60"
-    }
-  ],
-  "breakfast": [
-    {
-      "id": 31,
-      "name": "Pancakes",
-      "price": 450,
-      "description": "Delicious fluffy pancakes served with maple syrup.",
-      "image": "https://restaurentapp.s3.eu-west-1.amazonaws.com/productImages/1592393200.jpg"
-    },
-    {
-      "id": 32,
-      "name": "Eggs Benedict",
-      "price": 350,
-      "description": "Poached eggs served on an English muffin with hollandaise sauce.",
-      "image": "https://images.pexels.com/photos/2122294/pexels-photo-2122294.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-    },
-    {
-      "id": 33,
-      "name": "French Toast",
-      "price": 399,
-      "description": "Thick slices of bread soaked in a mixture of eggs and milk, then fried until golden brown.",
-      "image": "https://images.pexels.com/photos/4397314/pexels-photo-4397314.jpeg?auto=compress&cs=tinysrgb&w=1600"
-    },
-    {
-      "id": 34,
-      "name": "Chicken Fajita Omelette",
-      "price": 799,
-      "description": "Fluffy omelette with your choice of fillings: cheese, ham, peppers, onions, etc.",
-      "image": "https://cafejavasmedia.s3.af-south-1.amazonaws.com/productImages/1682844988.jpg"
-    },
-    {
-      "id": 35,
-      "name": "Belgian Waffles",
-      "description": "Golden-brown Belgian waffles served with fresh strawberries and whipped cream.",
-      "price": 799,
-      "image": "https://images.pexels.com/photos/4109465/pexels-photo-4109465.jpeg?auto=compress&cs=tinysrgb&w=600"
-    },
-    {
-      "id": 36,
-      "name": "Healthy Breakfast Bowl",
-      "description": "Quinoa, avocado, cherry tomatoes, spinach, and a poached egg topped with sesame seeds.",
-      "price": 1199,
-      "image": "https://media.istockphoto.com/id/1168253073/photo/healthy-breakfast-or-lunch-fried-snow-peas-avocado-poached-eggs-are-sprinkled-chia-seeds-with.jpg?b=1&s=612x612&w=0&k=20&c=BNKi6fG4SfFVloRAGBRr3SqDqORmm3nlM283JooGz0U="
-    },
-    {
-      "id": 37,
-      "name": "Smoked Salmon Bagel",
-      "description": "Toasted bagel with cream cheese, smoked salmon, capers, red onions, and dill.",
-      "price": 1299,
-      "image": "https://images.pexels.com/photos/4013766/pexels-photo-4013766.jpeg?auto=compress&cs=tinysrgb&w=600"
-    }
-  ]
+  "menu": [
+  {
+    "id": 1,
+    "name": "Pancakes",
+    "description": "Delicious pankcake served while hot",
+    "price": 200,
+    "image_url": "https://images.pexels.com/photos/376464/pexels-photo-376464.jpeg?auto=compress&cs=tinysrgb&w=800"
+  },
+  {
+    "id": 2,
+    "name": "Eggs",
+    "description": "Served with stew",
+    "price": 150,
+    "image_url": "https://images.pexels.com/photos/793785/pexels-photo-793785.jpeg?auto=compress&cs=tinysrgb&w=800"
+  },
+  {
+    "id": 3,
+    "name": "Omelette",
+    "description": "Customizable omelette with choice of fillings: cheese, ham, peppers, onions, etc.",
+    "price": 300,
+    "image_url": "https://images.pexels.com/photos/1437268/pexels-photo-1437268.jpeg?auto=compress&cs=tinysrgb&w=800"
+  },
+  {
+    "id": 201,
+    "name": "Caesar Salad",
+    "description": "Fresh romaine lettuce, croutons, Parmesan cheese, and Caesar dressing",
+    "price": 600,
+    "image_url": "https://images.pexels.com/photos/2097090/pexels-photo-2097090.jpeg?auto=compress&cs=tinysrgb&w=800"
+  },
+  {
+    "id": 202,
+    "name": "Grilled Chicken Sandwich",
+    "description": "Grilled chicken breast, lettuce, tomato, and mayonnaise on a toasted bun",
+    "price": 450,
+    "image_url": "https://images.pexels.com/photos/5337811/pexels-photo-5337811.jpeg?auto=compress&cs=tinysrgb&w=800"
+  },
+  {
+    "id": 203,
+    "name": "Pasta Carbonara",
+    "description": "Spaghetti with creamy carbonara sauce, bacon, and Parmesan cheese",
+    "price": 500,
+    "image_url": "https://images.pexels.com/photos/4518844/pexels-photo-4518844.jpeg?auto=compress&cs=tinysrgb&w=800"
+  }
+]
+
 }

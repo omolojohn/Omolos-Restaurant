@@ -1,5 +1,5 @@
 import { BrowserRouter as Router } from "react-router-dom";
-
+import Menu from "./Menu";
 import "./index.css";
 import Navbar from "./Navbar";
 import "./App.css";
@@ -12,12 +12,13 @@ function App() {
     <Router>
       <div>
      <Navbar />
+     <Menu />
       
         <Routes>
 
           
          
-          <Route path="*" element={<h1>404 not found</h1>} />
+          
           </Routes>
           
     </div>
