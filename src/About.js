@@ -89,4 +89,63 @@ function About() {
             className="form-label"
             style={{ fontSize: "25px" }}
           >
-            
+             Name
+          </label>
+          <input
+            type="name"
+            className="form-control"
+            id="exampleInputName"
+            name="name"
+          />
+          <small id="nameHelp" className="form-text text-muted">
+            (Optional)
+          </small>
+        </div>
+        <div className="mb-9 form-group">
+          <label
+            htmlFor="exampleInputLocation"
+            className="form-label"
+            style={{ fontSize: "25px" }}
+          >
+            Location Visited
+          </label>
+          <input
+            type="name"
+            className="form-control"
+            id="exampleInputLocation"
+            name="location"
+          />
+          <div id="LocationHelp" className="form-text"></div>
+        </div>
+
+        <p>Did you:</p>
+        <div className="mb-3 form-check">
+          <input
+            type="checkbox"
+            className="form-check-input"
+            id="exampleCheck1"
+            name="dineIn"
+          />
+          <label
+            className="form-check-label"
+            htmlFor="exampleCheck1"
+            style={{ fontSize: "25px" }}
+          >
+            Dine in
+          </label>
+        </div>
+        <div className="mb-3 form-check">
+          <input
+            type="checkbox"
+            className="form-check-input"
+            id="exampleCheck2"
+            name="dineOut"
+          />
+          <label
+            className="form-check-label"
+            htmlFor="exampleCheck2"
+            style={{ fontSize: "25px" }}
+          >
+            Dine out
+          </label>
+        </div>
