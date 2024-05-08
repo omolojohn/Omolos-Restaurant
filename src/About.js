@@ -149,3 +149,24 @@ function About() {
             Dine out
           </label>
         </div>
+
+        <button
+          type="submit"
+          className="btn "
+          style={{
+            backgroundColor: "#547043",
+            color: "white",
+            fontSize: "23px",
+            padding: "10px 25px",
+            borderRadius: "10px",
+          }}
+        >
+          Submit
+        </button>
+      </form>
+    </div>
+    </div>
+  );
+
+
+export default About;
