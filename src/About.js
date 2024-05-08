@@ -54,3 +54,39 @@ function About() {
         cultural exploration.
       </p>
       </div>
+
+
+ <div className="d-flex justify-content-center">
+      <form
+        onSubmit={handleSubmit}
+        style={{ width: "1000px" }}
+        className="mt-5 rounded p-4 shadow-lg">
+        <p> <b style={{ fontSize: "30px" }}>FEEDBACK FORM</b> </p>
+
+        <div className="mb-3 form-group">
+          <label
+            htmlFor="exampleInputEmail1"
+            className="form-label"
+            style={{ fontSize: "25px" }}
+          >
+            Email address
+          </label>
+          <input
+            type="email"
+            className="form-control"
+            id="exampleInputEmail1"
+            name="email"
+            aria-describedby="emailHelp"
+            required
+          />
+          <small id="emailHelp" className="form-text">
+            (We'll never share your email with anyone else).
+          </small>
+        </div>
+        <div className="mb-9 form-group">
+          <label
+            htmlFor="exampleInputName"
+            className="form-label"
+            style={{ fontSize: "25px" }}
+          >
+            
