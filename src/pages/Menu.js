@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import './App.css'
 
 function Menu() {
     const [dishes, setDishes] = useState([]);
@@ -13,7 +14,7 @@ function Menu() {
     return (
         <div>
             <h1>Our Menu</h1>
-            <div className="menu-items">
+            <div>
                 {dishes.map(dish => (
                     <div key={dish.id}>
                         <img src={dish.image} alt={dish.name} />

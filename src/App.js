@@ -3,13 +3,14 @@ import { Routes, Route } from 'react-router-dom';
 import NavBar from './components/Navbar';
 import Home from './pages/Home';
 import Menu from './pages/Menu';
-import Order from './pages/Order'
+import Order from './pages/Order';
+import  './App.css'
 
 
 function App() {
   return (
    
-      <div>
+      <div className='navbar'>
         <NavBar />
         <Routes>
           <Route path="/" element={<Home />} />

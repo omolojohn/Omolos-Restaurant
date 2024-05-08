@@ -1,4 +1,4 @@
-.horizontal-menu {
+*navbar {
     display: flex;
     justify-content: space-between;
     padding: 10px;
@@ -8,11 +8,11 @@
     margin-right: 20px;
 }
 
-.horizontal-menu li {
+.navbar li {
     list-style: none;
 }
 
-.horizontal-menu a {
+.navbar a {
     text-decoration: none;
     color: black;
     padding: 8px 12px;
@@ -23,4 +23,7 @@
 }
 .contact {
     text-align: left;
+}
+.menu {
+    text-align: center;
 }

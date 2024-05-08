@@ -6,7 +6,12 @@ function Home() {
   return (
     <div className="home">
         <div>
-            
+        <ul className="contact">
+        <h2>Contact</h2>
+        <li>Email: therestaurant@hotmail.com</li>
+        <li>Phone: +254715689085</li>
+        <li>Web: www.therestaurant.co.ke</li>
+      </ul>
         </div>
          <h1>Welcome to Our Restaurant</h1>
       <p>Here you can find delicious dishes to satisfy your appetite.</p>

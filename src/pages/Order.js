@@ -8,13 +8,8 @@ function Order() {
   };
 
   return (
-    <div>
-      <ul className="contact">
-        <h2>Contact</h2>
-        <li>Email: therestaurant@hotmail.com</li>
-        <li>Phone: +254715689085</li>
-        <li>Web: www.therestaurant.co.ke</li>
-      </ul>
+
+    
       <div>
         <ul onClick={toggleOrder}><button>Order</button></ul>
         {orderVisible && (
@@ -29,7 +24,6 @@ function Order() {
           </form>
         )}
       </div>
-    </div>
   );
 }
 
