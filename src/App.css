@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 *navbar {
+=======
+.horizontal-menu {
+>>>>>>> main
     display: flex;
     justify-content: space-between;
     padding: 10px;
@@ -8,6 +12,7 @@
     margin-right: 20px;
 }
 
+<<<<<<< HEAD
 .navbar li {
     list-style: none;
 }
@@ -26,4 +31,14 @@
 }
 .menu {
     text-align: center;
+=======
+.horizontal-menu li {
+    list-style: none;
+}
+
+.horizontal-menu a {
+    text-decoration: none;
+    color: black;
+    padding: 8px 12px;
+>>>>>>> main
 }
