@@ -12,7 +12,8 @@ function App () {
         <Menu />
         <Routes>
           <Route path="/" element={<Home />} />
-          {/* Define other routes here */}
+          <Route path="/menu" element={<Menu />} />
+          <Route path="/navbar" element={<Navbar />} />
         </Routes>
       </div>
     </Router>
