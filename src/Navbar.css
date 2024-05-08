@@ -1,0 +1,19 @@
+.horizontal-menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: palevioletred;
+    border-radius: 4px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.horizontal-menu li {
+    list-style: none;
+}
+
+.horizontal-menu a {
+    text-decoration: none;
+    color: black;
+    padding: 8px 12px;
+}
