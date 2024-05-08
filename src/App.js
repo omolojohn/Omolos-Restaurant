@@ -1,18 +1,23 @@
 import React from 'react'
-import NavBar from './Navbar';
-import Home from './Home';
-import Menu from './Menu';
+import { Routes, Route } from 'react-router-dom';
+import NavBar from './components/Navbar';
+import Home from './pages/Home';
+import Menu from './pages/Menu';
+import Order from './pages/Order'
 
 
 function App() {
   return (
-    <div>
-      <header>
+   
+      <div>
         <NavBar />
-        <Home />
-        <Menu />
-      </header>
-    </div>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/menu" element={<Menu />} />
+          <Route path='Order' element={<Order />}/>
+        </Routes>
+      </div>
+   
   )
 }
 
