@@ -1,6 +1,8 @@
 import React from 'react'
 import NavBar from './Navbar';
-import Home from './Home'
+import Home from './Home';
+import Menu from './Menu';
+
 
 function App() {
   return (
@@ -8,6 +10,7 @@ function App() {
       <header>
         <NavBar />
         <Home />
+        <Menu />
       </header>
     </div>
   )
