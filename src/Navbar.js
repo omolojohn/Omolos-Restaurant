@@ -7,7 +7,7 @@ function Navbar() {
             <ul className='horizontal-menu'>
                 <li><a href="#home">Home</a></li>
                 <li><a href="#menu">Menu</a></li>
-                <li><a href="#about">About Us</a></li>
+                <li><a href="#about">Make order</a></li>
             </ul>
         </nav>
     );
