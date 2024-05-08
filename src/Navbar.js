@@ -40,6 +40,17 @@ function Navbar() {
                   to="/"
                   style={{ textDecoration: "none",color:"#a6b49a", fontSize:"20px"}}
                 >
+                 HOME
+                </NavLink>
+              </li>
+              <li class="nav-item">
+                <NavLink
+                  class="nav-link"
+                  id="nav-item"
+                  to="/menu"
+                  style={{ textDecoration: "none" ,color:"#a6b49a",fontSize:"20px"}}
+                >
+
                  
                   MENU
                 </NavLink>
