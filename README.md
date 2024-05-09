@@ -1,70 +1,84 @@
-# Getting Started with Create React App
+# RESTAURANT APP
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Phase 2: END OF PHASE PROJECT
 
-## Available Scripts
+## Date: 09-05-2024
+## By: John Omolo @omolojohn, Victor Nyoike @flakegotgame, Trevors Banu @trevorsworld
 
-In the project directory, you can run:
 
-### `npm start`
+## Introduction
+Our Restaurant App aims to provide a seamless experience for customers to explore our menu and place orders online.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Features
 
-### `npm test`
+Our website is designed to offer seamless and enjoyable experience to the users. Here are some key features you can expect;
+  1. Menu
+   Explore our diverse menu featuring a wide array of delectable dishes. From hearty breakfast options to mouthwatering lunch and dinner choices, we have something to satisfy every plate. Each menu item is accompanied by a detailed description, allowing you to envision the flavors and textures that await.
+   2. Order
+   Enjoy the convenience of ordering your favorite dishes online.
+## Dependencies
+  .JavaScript
+  .React
+  .Node.js
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Prerequisites
+ Before running this app, make sure you have the following installed on your system:
+    . Node.js (v18.15.0 or later)
+    . npm (v9.6.7 or later)
+### Front-end Dependencies
+ React(v20.2.0)
+ React DOM (v18.2.0)
+ React Scripts (v5.0.1)
+ React-router dom
 
-### `npm run build`
+ ### Project Set-up
+ git clone https://github.com/omolojohn/Omolos-Restaurant
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+ - Navigate to the project's directory using the command 'cd'
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+ ### Back-end dependencies
+ Install 'npm install -g json-server'
+ Run 'json-server --watch db.json'
+ The server will run on a port as shown http://localhost:3000/menu
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+ Then run npm start to start the app in the browser
 
-### `npm run eject`
+ ### Project deliverables
+  .A user should be able to:
+  .View different categories of the menu
+   .Order food for take out
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Live Link
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Contributing
+Contributions are welcome! If you have any suggestions, feature requests, or bug reports, please open an issue on GitHub.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Support and Contact details
+github/netlify/render.com/omolojohn/flakegotgame/trevorsworld
+### License
+MIT License
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Copyright (c) 2024 omolojohn
 
-## Learn More
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+### Acknowledgements
+* Moringa School for providing the opportunity and platform.
+* Dennis Koboi for the technical guidance and support.
+* The contributors @victor,john&trevors for the cooperatin.
