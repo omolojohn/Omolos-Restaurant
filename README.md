@@ -67,7 +67,7 @@ The app will open on your default browser automatically when `npm start` is run,
 
 ## Project Deliverables
 
-As a user should be able to:
+A user should be able to:
 
 - Browse his or her food of choice
 -View different categories of the menu 
