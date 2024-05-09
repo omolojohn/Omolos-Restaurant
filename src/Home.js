@@ -1,9 +1,5 @@
-<<<<<<< HEAD
 import React, { useState }from "react";
-=======
 import React, { createContext, useState }from "react";
->>>>>>> acf12b5 (changes)
-
 
 function Home() {
  
@@ -31,9 +27,5 @@ function Home() {
     </div>
   );
 }
+export default Home;
 
-<<<<<<< HEAD
-export default Home;
-=======
-export default Home;
->>>>>>> acf12b5 (changes)

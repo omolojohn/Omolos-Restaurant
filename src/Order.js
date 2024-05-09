@@ -46,49 +46,33 @@ function Order() {
     }, 0);
     setTotalPrice(totalPrice);
   }, [selectedItems]);
+    const formData = new FormData(event.target);
+    const formDataObject = Object.fromEntries(formData.entries());
+    console.log('Form data:', formDataObject);
+    
+   event.target.reset();
+    setOrderVisible(false);
+  
 
   return (
     <div>
-      {!orderSubmitted ? (
-        <div>
-          <button onClick={toggleOrder}>Order</button>
-          {orderVisible && (
-            <form onSubmit={handleSubmit}>
-              <label htmlFor="name">Name:</label>
-              <input id="name" type="text" required />
-              <label htmlFor="email">Email:</label>
-              <input id="email" type="email" required />
-              <label htmlFor="phone">Phone:</label>
-              <input id="phone" type="tel" required />
-
-              <p>Select Items:</p>
-              <ul>
-                {items.map(item => (
-                  <li key={item.id}>
-                    <label>
-                      <input
-                        type="number"
-                        min="0"
-                        value={selectedItems.find(selectedItem => selectedItem.id === item.id)?.quantity || 0}
-                        onChange={(e) => handleItemChange(item.id, parseInt(e.target.value))}
-                      />
-                      {item.name} - ${item.price}
-                    </label>
-                  </li>
-                ))}
-              </ul>
-              
-              <p>Total Price: ${totalPrice}</p>
-
-              <button type="submit">Place Order</button>
-            </form>
-          )}
-        </div>
-      ) : (
-        <div>
-          <p>Thank you for your order! We'll contact you shortly.</p>
-          <button onClick={toggleOrder}>Place Another Order</button>
-        </div>
+      <ul onClick={toggleOrder}><button>Order</button></ul>
+      {orderVisible && (
+        <form onSubmit={handleSubmit}>
+          <label>Name:</label>
+          <input type="text" name="name" required />
+          <label>Address:</label>
+          <input type="address" name="address" required />
+          <label>Phone:</label>
+          <input type="tel" name="phone" required />
+          <label>Food Item:</label>
+          <input type="text" name="foodItem" required />
+          <label>Quantity:</label>
+          <input type="number" name="quantity" required />
+          <label>Special Instructions:</label>
+          <textarea name="instructions"></textarea>
+          <button type="submit">Place Order</button>
+        </form>
       )}
     </div>
   );

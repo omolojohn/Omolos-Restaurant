@@ -9,7 +9,7 @@ import  './App.css'
 
 function App () {
   return (
-      <div className='navbar'>
+      <div>
         <NavBar />
         <Routes>
           <Route path="/" element={<Home />} />
