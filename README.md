@@ -71,11 +71,11 @@ A user should be able to:
 -Order food for take out
 
 
-## Author & License
+## Authors
 
 Authored by:
-[John Omolo] 
-[Victor Nyoike]
-[Trevors Banu]
+[John Omolo]
 
-Licensed under the [MIT License](LICENSE) - see the [LICENSE](LICENSE) file for details.
+[Victor Nyoike]
+
+[Trevors Banu]
