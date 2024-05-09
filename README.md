@@ -74,6 +74,7 @@ A user should be able to:
 ## Authors
 
 Authored by:
+
 [John Omolo]
 
 [Victor Nyoike]
