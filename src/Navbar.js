@@ -15,4 +15,8 @@ function Navbar() {
     );
 }
 
+<<<<<<< HEAD
 export default Navbar;
+=======
+export default Navbar;
+>>>>>>> acf12b5 (changes)
