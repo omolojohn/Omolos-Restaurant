@@ -17,13 +17,16 @@
     color: black;
     padding: 8px 12px;
 }
+
 .home {
     font-size: 26px;
     text-align: center;
 }
+
 .contact {
     text-align: center;
 }
+
 .menu {
     text-align: center;
 }
