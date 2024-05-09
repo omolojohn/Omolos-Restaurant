@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 
 function Order() {
   const [orderVisible, setOrderVisible] = useState(false);
-<<<<<<< HEAD
+
   const [orderSubmitted, setOrderSubmitted] = useState(false);
   const [selectedItems, setSelectedItems] = useState([]);
   const [totalPrice, setTotalPrice] = useState(0);
@@ -91,30 +91,6 @@ function Order() {
         </div>
       )}
     </div>
-=======
-
-  const toggleOrder = () => {
-    setOrderVisible(!orderVisible);
-  };
-
-  return (
-
-    
-      <div>
-        <ul onClick={toggleOrder}><button>Order</button></ul>
-        {orderVisible && (
-          <form>
-            <label>Name:</label>
-            <input type="text" />
-            <label>Email:</label>
-            <input type="email" />
-            <label>Phone:</label>
-            <input type="tel" />
-            <button type="submit">Place Order</button>
-          </form>
-        )}
-      </div>
->>>>>>> acf12b5 (changes)
   );
 }
 
