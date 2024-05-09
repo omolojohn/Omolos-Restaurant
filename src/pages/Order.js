@@ -1,23 +1,56 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 
 function Order() {
   const [orderVisible, setOrderVisible] = useState(false);
+  const [orders, setOrders] = useState([]);
 
   const toggleOrder = () => {
     setOrderVisible(!orderVisible);
   };
 
-  const handleSubmit = (event) => {
-    
+  const handleSubmit = async (event) => {
     event.preventDefault();
-    
+
     const formData = new FormData(event.target);
     const formDataObject = Object.fromEntries(formData.entries());
-    console.log('Form data:', formDataObject);
-    
-    event.target.reset();
-    setOrderVisible(false);
+
+    try {
+      const response = await fetch('http://localhost:3001/menu', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(formDataObject),
+      });
+
+      if (response.ok) {
+        console.log('Order placed successfully');
+        event.target.reset();
+        setOrderVisible(false);
+      } else {
+        console.error('Failed to place order');
+      }
+    } catch (error) {
+      console.error('Error occurred:', error);
+    }
   };
+
+  const fetchOrders = async () => {
+    try {
+      const response = await fetch('http://localhost:3001/menu');
+      if (response.ok) {
+        const data = await response.json();
+        setOrders(data);
+      } else {
+        console.error('Failed to fetch orders');
+      }
+    } catch (error) {
+      console.error('Error occurred:', error);
+    }
+  };
+  useEffect(() => {
+    fetchOrders();
+  }, []);
 
   return (
     <div>
@@ -39,6 +72,16 @@ function Order() {
           <button type="submit">Place Order</button>
         </form>
       )}
+      <div>
+    
+        <ul>
+          {orders.map((order, index) => (
+            <li key={index}>
+              Name: {order.name}, Address: {order.address}, Phone: {order.phone}, Food Item: {order.foodItem}, Quantity: {order.quantity}, Instructions: {order.instructions}
+            </li>
+          ))}
+        </ul>
+      </div>
     </div>
   );
 }
