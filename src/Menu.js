@@ -5,7 +5,7 @@ function Menu({ onSelect }) {
     const [dishes, setDishes] = useState([]);
 
     useEffect(() => {
-        fetch('http://localhost:3001/menu')
+        fetch('http://localhost:3000/menu')
             .then(response => response.json())
             .then(data => setDishes(data))
             .catch(error => console.error('Error fetching dishes:', error));
@@ -20,11 +20,12 @@ function Menu({ onSelect }) {
             <div>
                 {dishes.map(dish => (
                     <div key={dish.id} onClick={() => handleSelectItem(dish)}>
-                        <img src={dish.image} alt={dish.name} />
+                         <img src={dish.image_url} alt={dish.name} />
                         <h2>{dish.name}</h2>
                         <p>{dish.description}</p>
                          <p>{dish.price}</p>
         
+                        <p>{dish.price}</p>
                     </div>
                 ))}
             </div>
