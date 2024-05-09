@@ -1,70 +1,84 @@
-# Getting Started with Create React App
+# RESTAURANT APP
+# Phase 2: END OF PHASE PROJECT
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[![Licence](https://img.shields.io/github/license/Ileriayo/markdown-badges?style=for-the-badge)](./LICENSE)
+[![Javascript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://www.javascript.com)
+[![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://react.dev/)
+[![NPM](https://img.shields.io/badge/NPM-%23CB3837.svg?style=for-the-badge&logo=npm&logoColor=white)](https://www.npmjs.com/)
+[![Bootstrap](https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white)](https://getbootstrap.com/)
+[![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white)](https://vercel.com/)
 
-## Available Scripts
+## Introduction 
+Welcome to our Restaurant App! We are delighted to have you here and share our passion for serving delicious and memorable meals. This README will give you a brief overview of our restaurant's website and its features.
+## Features 
+ur restaurant's website is designed to offer a seamless and enjoyable experience to our customers. Here are some key features you can expect:
 
-In the project directory, you can run:
+1. Menu
+   Explore our diverse menu featuring a wide array of delectable dishes. From hearty breakfast options to mouthwatering lunch and dinner choices, we have something to satisfy every palate. Each menu item is accompanied by a detailed description, allowing you to envision the flavors and textures that await.
 
-### `npm start`
+2. Order Online
+   Enjoy the convenience of ordering your favorite dishes online and having them delivered to your doorstep or prepared for pickup. Our easy-to-use online ordering system allows you to customize your order.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+   ## Dependencies
+   ### Prerequisites
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+   Before running this app, make sure you have the following installed on your system:
 
-### `npm test`
+- Node.js (v18.15.0 or later)
+- npm (v9.6.7 or later)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Front-end-Dependancies
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- React (v20.2.0)
+- React DOM (v18.2.0)
+- React Scripts (v5.0.1)
+- React router dom 
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Project Setup
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### 1. Clone the repository
+git  clone https://github.com/omolojohn/Omolos-Restaurant
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### 2. Navigate to the project directory
+cd Omolos-Restaurant
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### 3. Install required dependencies
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+In the project directory, install the required dependencies
 
-## Learn More
+```
+npm install
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+#### 4. Test the server by visiting this route in the browser
+http://localhost:3000/menu
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+### 5. Start the development server
+npm start
+This runs the app in the development mode.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### 6. Open your browser and interact with the app
 
-### Analyzing the Bundle Size
+The app will open on your default browser automatically when `npm start` is run, but if it doesn't, open [http://localhost:3000](http://localhost:3000/menu) to view it.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Project Deliverables
 
-### Making a Progressive Web App
+A user should be able to:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- Browse his or her food of choice
+-View different categories of the menu 
+-Order food for take-out
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Author & License
 
-### Deployment
+Authored by:
+[John Omolo] 
+[Victor Nyoike]
+[Trevors Banu]
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Licensed under the [MIT License](LICENSE) - see the [LICENSE](LICENSE) file for details.
