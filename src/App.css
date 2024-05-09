@@ -1,29 +1,32 @@
 .navbar {
-  display: flex;
-  justify-content: space-between;
-  padding: 10px;
-  background-color: palevioletred;
-  border-radius: 4px;
-  margin-left: 20px;
-  margin-right: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: palevioletred;
+    border-radius: 4px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .navbar li {
-  list-style: none;
+    list-style: none;
 }
 
 .navbar a {
-  text-decoration: none;
-  color: black;
-  padding: 8px 12px;
+    text-decoration: none;
+    color: black;
+    padding: 8px 12px;
 }
+
 .home {
-  font-size: 36px;
-  text-align: center;
+    font-size: 36px;
+    text-align: center;
 }
+
 .contact {
-  text-align: left;
+    text-align: left;
 }
+
 .menu {
-  text-align: center;
+    text-align: center;
 }
