@@ -1,20 +1,48 @@
 import React, { useState } from 'react';
 
-function Order () {
+function Order() {
   const [orderVisible, setOrderVisible] = useState(false);
-  const[orderSubmitted, setOrderSubmitted] = useState(false);
+  const [orderSubmitted, setOrderSubmitted] = useState(false);
+  const [selectedItems, setSelectedItems] = useState([]);
+  const [totalPrice, setTotalPrice] = useState(0);
+
+  const items = [
+    { id: 1, name: "Item 1", price: 10 },
+    { id: 2, name: "Item 2", price: 20 },
+    { id: 3, name: "Item 3", price: 15 },
+    
+  ];
 
   const toggleOrder = () => {
-    setOrderVisible(!orderVisible)
-
+    setOrderVisible(!orderVisible);
     setOrderSubmitted(false);
   };
 
   const handleSubmit = (event) => {
     event.preventDefault();
-
+    
     setOrderSubmitted(true);
   };
+
+  const handleItemChange = (itemId, quantity) => {
+    const existingItemIndex = selectedItems.findIndex(item => item.id === itemId);
+    if (existingItemIndex !== -1) {
+      const updatedItems = [...selectedItems];
+      updatedItems[existingItemIndex].quantity = quantity;
+      setSelectedItems(updatedItems);
+    } else {
+      const selectedItem = items.find(item => item.id === itemId);
+      setSelectedItems([...selectedItems, { ...selectedItem, quantity }]);
+    }
+  };
+
+  
+  useState(() => {
+    const totalPrice = selectedItems.reduce((total, item) => {
+      return total + item.price * item.quantity;
+    }, 0);
+    setTotalPrice(totalPrice);
+  }, [selectedItems]);
 
   return (
     <div>
@@ -29,6 +57,26 @@ function Order () {
               <input id="email" type="email" required />
               <label htmlFor="phone">Phone:</label>
               <input id="phone" type="tel" required />
+
+              <p>Select Items:</p>
+              <ul>
+                {items.map(item => (
+                  <li key={item.id}>
+                    <label>
+                      <input
+                        type="number"
+                        min="0"
+                        value={selectedItems.find(selectedItem => selectedItem.id === item.id)?.quantity || 0}
+                        onChange={(e) => handleItemChange(item.id, parseInt(e.target.value))}
+                      />
+                      {item.name} - ${item.price}
+                    </label>
+                  </li>
+                ))}
+              </ul>
+              
+              <p>Total Price: ${totalPrice}</p>
+
               <button type="submit">Place Order</button>
             </form>
           )}
@@ -44,7 +92,3 @@ function Order () {
 }
 
 export default Order;
-
-
-
-
