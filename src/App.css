@@ -1,0 +1,29 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: palevioletred;
+  border-radius: 4px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.navbar li {
+  list-style: none;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: black;
+  padding: 8px 12px;
+}
+.home {
+  font-size: 36px;
+  text-align: center;
+}
+.contact {
+  text-align: left;
+}
+.menu {
+  text-align: center;
+}
