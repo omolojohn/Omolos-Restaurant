@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
-
+import { isHtmlElement } from 'react-router-dom/dist/dom';
+import './App.css'
 function Menu({ onSelect }) {
     const [dishes, setDishes] = useState([]);
 
@@ -12,8 +13,7 @@ function Menu({ onSelect }) {
 
     const handleSelectItem = (item) => {
         onSelect(item);
-    };
-
+    }
     return (
         <div className='menu'>
             <h1>Our Menu</h1>
@@ -23,6 +23,8 @@ function Menu({ onSelect }) {
                          <img src={dish.image_url} alt={dish.name} />
                         <h2>{dish.name}</h2>
                         <p>{dish.description}</p>
+                         <p>{dish.price}</p>
+        
                         <p>{dish.price}</p>
                     </div>
                 ))}
