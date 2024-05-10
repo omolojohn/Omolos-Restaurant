@@ -39,13 +39,14 @@ Then run npm start to start the app in the browser
 .A user should be able to: .View different categories of the menu .Order food for take out
 
 ### Live Link
+Vercel for the front end: omolos-restaurant-ca5wxyw3y-john-omolos-projects.vercel.app
 
 
 ### Contributions
 Contributions are welcome! If you have any suggestions, feature requests, or bug reports, please open an issue on GitHub.
 
 ### Support and Contact details
-github/netlify/render.com/omolojohn/flakegotgame/trevorsworld
+github/vercel/render.com/omolojohn/flakegotgame/trevorsworld
 
 ### License
 MIT License
@@ -62,3 +63,4 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 Moringa School for providing the opportunity and platform.
 Dennis Koboi for the technical guidance and support.
 The contributors @victor,john&trevors for the cooperatin.
+Vercel for hosting our front-end project
