@@ -12,8 +12,9 @@ Our Restaurant App aims to provide a seamless experience for customers to explor
 ### Features
 Our website is designed to offer seamless and enjoyable experience to the users. Here are some key features you can expect;
 
-  1.Menu Explore our diverse menu featuring a wide array of delectable dishes. From hearty breakfast options to mouthwatering lunch and dinner choices, we have something to satisfy every plate. Each menu item is accompanied by a detailed description, allowing you to envision the flavors and textures that await.
-  2.Order Enjoy the convenience of ordering your favorite dishes online.
+  1.Menu: Explore our diverse menu featuring a wide array of delectable dishes. From hearty breakfast options to mouthwatering lunch and dinner choices, we have something to satisfy every plate. Each menu item is accompanied by a detailed description, allowing you to envision the flavors and textures that await.
+
+  2.Order: Enjoy the convenience of ordering your favorite dishes online.
 ### Dependencies
  .JavaScript 
  .React 
