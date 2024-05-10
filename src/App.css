@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-between;
     padding: 10px;
-    background-color: palevioletred;
+    background-color: rgb(91, 145, 192);
     border-radius: 4px;
     margin-left: 20px;
     margin-right: 20px;
@@ -29,4 +29,10 @@
 
 .menu {
     text-align: center;
+}
+.order {
+  text-align: center;
+}
+.app {
+  background-color: rgb(112, 129, 77);
 }
