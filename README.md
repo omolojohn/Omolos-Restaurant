@@ -39,7 +39,7 @@ Then run npm start to start the app in the browser
 .A user should be able to: .View different categories of the menu .Order food for take out
 
 ### Live Link
-Vercel for the front end: "omolos-restaurant-ca5wxyw3y-john-omolos-projects.vercel.app"
+Vercel for the front end: omolos-restaurant-ca5wxyw3y-john-omolos-projects.vercel.app
 
 
 ### Contributions
