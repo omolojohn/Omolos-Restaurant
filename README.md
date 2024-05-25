@@ -61,5 +61,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 ### Acknowledgements
 Moringa School for providing the opportunity and platform.
+
 Dennis Koboi for the technical guidance and support.
+
 Vercel for hosting our front-end project
