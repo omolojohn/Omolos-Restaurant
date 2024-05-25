@@ -4,7 +4,7 @@
 
 ## Date: 09-05-2024
 
-## By: John Omolo @omolojohn, Victor Nyoike @flakegotgame, Trevors Banu @trevorsworld
+## By: John Omolo @omolojohn
 
 ### Introduction
 Our Restaurant App aims to provide a seamless experience for customers to explore our menu and place orders online.
@@ -46,7 +46,7 @@ Vercel for the front end: omolos-restaurant-ca5wxyw3y-john-omolos-projects.verce
 Contributions are welcome! If you have any suggestions, feature requests, or bug reports, please open an issue on GitHub.
 
 ### Support and Contact details
-github/vercel/render.com/omolojohn/flakegotgame/trevorsworld
+github/vercel/render.com/omolojohn
 
 ### License
 MIT License
@@ -62,5 +62,4 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 ### Acknowledgements
 Moringa School for providing the opportunity and platform.
 Dennis Koboi for the technical guidance and support.
-The contributors @victor,john&trevors for the cooperatin.
 Vercel for hosting our front-end project
