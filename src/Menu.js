@@ -4,7 +4,7 @@ function Menu({ onSelect }) {
     const [dishes, setDishes] = useState([]);
 
     useEffect(() => {
-        fetch('https://restaurant-server-2-k11a.onrender.com/menu')
+        fetch('https://restaurant-server-2rkf.onrender.com/menu')
             .then(response => response.json())
             .then(data => setDishes(data))
             .catch(error => console.error('Error fetching dishes:', error));
