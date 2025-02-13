@@ -27,7 +27,7 @@ function Order() {
 
   const fetchOrders = async () => {
     try {
-      const response = await fetch("http://localhost:3001/orders");
+      const response = await fetch("https://restaurant-server-2rkf.onrender.com/orders");
       if (response.ok) {
         const data = await response.json();
         setOrders(data);
@@ -41,7 +41,7 @@ function Order() {
 
   const fetchMenu = async () => {
     try {
-      const response = await fetch("http://localhost:3001/menu");
+      const response = await fetch("https://restaurant-server-2rkf.onrender.com/menu");
       if (response.ok) {
         const data = await response.json();
         setMenu(data.menu);

@@ -4,7 +4,7 @@ import NavBar from './Navbar';
 import Home from './Home';
 import Menu from './Menu';
 import Order from './Order';
-import  './App.css'
+import  './styles.css'
 
 
 function App () {
